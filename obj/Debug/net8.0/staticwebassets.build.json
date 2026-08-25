@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "oI8lC/ZE3TpzosD0ipWNDo6oviUs3m0eVpFezJcDshI=",
+  "Source": "PharmacyMedicineTracker",
+  "BasePath": "_content/PharmacyMedicineTracker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PharmacyMedicineTracker\\wwwroot",
+      "Source": "PharmacyMedicineTracker",
+      "ContentRoot": "C:\\Users\\tarun\\Documents\\Codex\\2026-08-20\\pl\\outputs\\PharmacyMedicineTracker\\wwwroot\\",
+      "BasePath": "_content/PharmacyMedicineTracker",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\tarun\\Documents\\Codex\\2026-08-20\\pl\\outputs\\PharmacyMedicineTracker\\wwwroot\\app.js",
+      "SourceId": "PharmacyMedicineTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarun\\Documents\\Codex\\2026-08-20\\pl\\outputs\\PharmacyMedicineTracker\\wwwroot\\",
+      "BasePath": "_content/PharmacyMedicineTracker",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    },
+    {
+      "Identity": "C:\\Users\\tarun\\Documents\\Codex\\2026-08-20\\pl\\outputs\\PharmacyMedicineTracker\\wwwroot\\index.html",
+      "SourceId": "PharmacyMedicineTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarun\\Documents\\Codex\\2026-08-20\\pl\\outputs\\PharmacyMedicineTracker\\wwwroot\\",
+      "BasePath": "_content/PharmacyMedicineTracker",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\tarun\\Documents\\Codex\\2026-08-20\\pl\\outputs\\PharmacyMedicineTracker\\wwwroot\\site.css",
+      "SourceId": "PharmacyMedicineTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tarun\\Documents\\Codex\\2026-08-20\\pl\\outputs\\PharmacyMedicineTracker\\wwwroot\\",
+      "BasePath": "_content/PharmacyMedicineTracker",
+      "RelativePath": "site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.css"
+    }
+  ]
+}

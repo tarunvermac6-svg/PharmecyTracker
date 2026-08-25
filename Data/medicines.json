@@ -1,0 +1,52 @@
+[
+  {
+    "Id": "28ce113f-bab3-4183-968c-04847cbba563",
+    "FullName": "Paracetamol 500mg Tablets",
+    "Notes": "Take after food when possible.",
+    "ExpiryDate": "2026-09-05T00:00:00",
+    "Quantity": 42,
+    "Price": 25.50,
+    "Brand": "ABC Pharma",
+    "Sales": []
+  },
+  {
+    "Id": "66d6952e-1cbe-42eb-9e8d-4e64971ed159",
+    "FullName": "Cetirizine 10mg Tablets",
+    "Notes": "May cause drowsiness.",
+    "ExpiryDate": "2027-03-31T00:00:00",
+    "Quantity": 7,
+    "Price": 18.00,
+    "Brand": "WellCare",
+    "Sales": []
+  },
+  {
+    "Id": "76fed61b-358b-4a04-858b-1beb9b3d4a4b",
+    "FullName": "Vitamin C 500mg",
+    "Notes": "Store in a cool, dry place.",
+    "ExpiryDate": "2027-11-15T00:00:00",
+    "Quantity": 64,
+    "Price": 99.99,
+    "Brand": "HealthPlus",
+    "Sales": []
+  },
+  {
+    "Id": "ef5c0cb7-597d-40d1-8da0-8d24ef137d02",
+    "FullName": "Carpol",
+    "Notes": "",
+    "ExpiryDate": "2026-08-29T00:00:00",
+    "Quantity": 1,
+    "Price": 55,
+    "Brand": "ABC",
+    "Sales": []
+  },
+  {
+    "Id": "3e662a71-f547-4faa-91e3-907651bffafb",
+    "FullName": "Zerodol-P",
+    "Notes": "",
+    "ExpiryDate": "2026-05-04T00:00:00",
+    "Quantity": 11,
+    "Price": 121,
+    "Brand": "Redies",
+    "Sales": []
+  }
+]

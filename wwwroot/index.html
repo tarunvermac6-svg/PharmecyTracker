@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ABC Pharmacy | Medicine Tracker</title><link rel="stylesheet" href="site.css"></head>
+<body>
+  <header><div><p class="eyebrow">ABC PHARMACY</p><h1>Medicine tracker</h1><p class="subtle">Inventory and daily sales in one simple workspace.</p></div><button id="newMedicine" class="primary">+ Add medicine</button></header>
+  <main>
+    <section class="summary"><article><span id="medicineCount">0</span><small>Medicines listed</small></article><article><span id="lowStockCount">0</span><small>Low-stock items</small></article><article><span id="expiryCount">0</span><small>Expiring within 30 days</small></article></section>
+    <section class="toolbar"><label>Search medicines<input id="search" type="search" placeholder="Type a medicine name…"></label><p><i class="red-key"></i>Expires within 30 days <i class="yellow-key"></i>Stock below 10</p></section>
+    <section class="table-wrap"><table><thead><tr><th>Medicine</th><th>Brand</th><th>Expiry date</th><th>Quantity</th><th>Price</th><th>Sale</th><th>Action</th></tr></thead><tbody id="medicineRows"></tbody></table><p id="empty" hidden>No medicines match your search.</p></section>
+  </main>
+  <dialog id="medicineDialog"><form id="medicineForm"><div class="modal-head"><h2>Add medicine</h2><button type="button" class="close" data-close aria-label="Close">×</button></div><div class="form-grid"><label>Full name<input name="fullName" required></label><label>Brand<input name="brand" required></label><label>Expiry date<input name="expiryDate" type="date" required></label><label>Quantity<input name="quantity" type="number" min="0" required></label><label>Price<input name="price" type="number" min="0" step="0.01" required></label><label class="wide">Notes<textarea name="notes" rows="3" placeholder="Optional medicine notes"></textarea></label></div><p class="form-error" id="medicineError"></p><div class="actions"><button type="button" data-close class="secondary">Cancel</button><button id="saveMedicine" class="primary">Save medicine</button></div></form></dialog>
+  <dialog id="saleDialog"><form id="saleForm"><div class="modal-head"><h2>Record sale</h2><button type="button" class="close" data-close aria-label="Close">×</button></div><p id="saleMedicine"></p><label>Quantity sold<input name="quantity" type="number" min="1" required></label><p class="form-error" id="saleError"></p><div class="actions"><button type="button" data-close class="secondary">Cancel</button><button class="primary">Save sale</button></div></form></dialog>
+  <div id="toast" role="status"></div><script src="app.js"></script>
+</body></html>
